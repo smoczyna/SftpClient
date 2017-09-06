@@ -20,7 +20,7 @@ public class Sftp {
             if (arg.length > 0) {
                 host = arg[0];
             } else {
-                host = JOptionPane.showInputDialog("Enter username@hostname", "server-vej68gp@10.123.20.12");
+                host = JOptionPane.showInputDialog("Enter username@hostname", "");
                         //System.getProperty("user.name")
                         //+ "@localhost");
             }
